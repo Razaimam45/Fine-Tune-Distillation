@@ -1,0 +1,67 @@
+# Ignore all files with specific extensions
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.ico
+
+# Ignore all weight formats
+*.h5
+*.hdf5
+*.pth
+*.ckpt
+*.pt
+
+# Ignore all zip files
+*.zip
+
+# Ignore other unnecessary files
+*.log
+*.csv
+*.tsv
+*.json
+*.xml
+*.yaml
+*.yml
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.mat
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+
+# Ignore project-specific files
+/config/
+/data/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+venv/
+env/
+
+/Car OOD/
+/Detectron2/
+/DETR/
+/Faster_RCNN_NOT_WORKED/
+/YOLO_NAS/
+/YOLO_r/
+/YOLO_s/
+/YOLO_v5/
+/YOLO_v7/
+/YOLOv8/
+/YOLO_x/
